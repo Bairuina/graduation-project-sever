@@ -42,7 +42,7 @@ module.exports = appInfo => {
     host: '127.0.0.1',
     port: 3306,
     username: 'root',
-    password: 'a123123..',
+    password: '123456',
     timezone: '+08:00'
   }
 
@@ -67,7 +67,7 @@ module.exports = appInfo => {
   }
 
   // 自己邮箱, 用于通知报告
-  config.email = 'xjh22222228@gmail.com'
+  config.email = '1215225984@qq.com'
 
   return config
 }
