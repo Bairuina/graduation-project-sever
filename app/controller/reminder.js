@@ -127,7 +127,9 @@ class ReminderController extends Controller {
         content,
         type
       })
-      ctx.print = null
+      ctx.print = {
+        msg: '编辑成功',
+      }
     } catch {
       ctx.print = { errorCode: 5 }
     }
